@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="x_small_text">10sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="normal_text">14sp</dimen>
+    <dimen name="medium_text">16sp</dimen>
+    <dimen name="large_text">18sp</dimen>
+    <dimen name="x_large_text">20sp</dimen>
+
+    <dimen name="movie_item_margin_top">10dp</dimen>
+
+    <!--Splash dimens-->
+    <dimen name="splash_text_size">28sp</dimen>
+
+    <!--Movie listing dimens-->
+    <dimen name="movie_list_card_corner_radius">10dp</dimen>
+    <dimen name="movie_list_image_height">130dp</dimen>
+
+    <!--Movie Detail dimens-->
+    <dimen name="movie_cast_image_width">120dp</dimen>
+    <dimen name="movie_cast_image_height">180dp</dimen>
+    <dimen name="similar_movie_image_width">130dp</dimen>
+    <dimen name="similar_movie_image_height">195dp</dimen>
+
+    <dimen name="movie_video_width">210dp</dimen>
+    <dimen name="movie_video_height">130dp</dimen>
+</resources>

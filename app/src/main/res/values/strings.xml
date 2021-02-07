@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hungama</string>
+    <string name="api_key">1806dce5898dfe563b0ca07ceb848a91</string>
+    <string name="access_token">eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxODA2ZGNlNTg5OGRmZTU2M2IwY2EwN2NlYjg0OGE5MSIsInN1YiI6IjYwMWQ4NGI3Y2QyMDQ2MDAzZmIwZjk1OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.08bjw3dHxUmO2I4nevXhvVxewCeRfsTXugIY745dv60</string>
+    <string name="recently_searched">Recently Searched</string>
+    <string name="play">Play</string>
+    <string name="release_date">Release Date</string>
+    <string name="videos">Videos</string>
+    <string name="similar_movies">Similar Movies</string>
+    <string name="crew">Crew</string>
+    <string name="cast">Cast</string>
+    <string name="overview">Overview</string>
+</resources>

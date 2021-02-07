@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="@dimen/movie_list_card_corner_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivMovieCast"
+            android:layout_width="@dimen/movie_cast_image_width"
+            android:layout_height="@dimen/movie_cast_image_height"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="2:3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvCastOriginalName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="5dp"
+            android:text="Vidyut Jammwal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="@id/ivMovieCast"
+            app:layout_constraintStart_toStartOf="@id/ivMovieCast"
+            app:layout_constraintTop_toBottomOf="@id/ivMovieCast" />
+
+        <TextView
+            android:id="@+id/tvCastName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:padding="5dp"
+            android:text="Raj"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/small_text"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="@id/ivMovieCast"
+            app:layout_constraintStart_toStartOf="@id/ivMovieCast"
+            app:layout_constraintTop_toBottomOf="@id/tvCastOriginalName" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
