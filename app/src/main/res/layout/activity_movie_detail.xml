@@ -127,7 +127,6 @@
             android:layout_marginTop="@dimen/movie_item_margin_top"
             android:ellipsize="end"
             android:fontFamily="sans-serif-light"
-            android:maxLines="2"
             android:text="Genre"
             android:textColor="@color/gray"
             android:textSize="@dimen/normal_text"
