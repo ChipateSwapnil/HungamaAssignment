@@ -251,12 +251,12 @@ class MovieDetailActivity : AppCompatActivity() {
 //            var moveId: String? = ""
 //
 //            if (args != null) {
-//                moveId = args.getString("movieId")
+//                moveId = args.getString("movieId")b
 //            }
 //            return MovieVideoLoader(context, moveId)
 //        }
 //
-//        override fun onLoadFinished(loader: Loader<MovieVideo>, data: MovieVideo?) {
+//        override fun onLoadFiniSshed(loader: Loader<MovieVideo>, data: MovieVideo?) {
 //            try {
 //                if (data?.results != null && data.results!!.isNotEmpty()) {
 //                    movieVideos = data.results as ArrayList<MovieVideo.Result>
